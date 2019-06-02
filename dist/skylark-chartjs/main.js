@@ -1,0 +1,9 @@
+/**
+ * skylark-chartjs - A version of chartjs that ported to running on skylarkjs
+ * @author Hudaokeji, Inc.
+ * @version v0.9.2
+ * @link https://github.com/skylarkui/skylark-chartjs/
+ * @license MIT
+ */
+define(["./core/core.controller","./helpers/index","./core/core.helpers","./core/core.adapters","./core/core.animation","./core/core.animations","./controllers/index","./core/core.datasetController","./core/core.defaults","./core/core.element","./elements/index","./core/core.interaction","./core/core.layouts","./platforms/platform","./core/core.plugins","./core/core.scale","./core/core.scaleService","./core/core.ticks","./core/core.tooltip","./scales/index","./adapters/index","./plugins/index","./scales/scale.linearbase"],function(e,r,o,t,n,a,c,l,i,s,p,u,d,f,m,h,v,g,x,y,S,w,A){"use strict";var C={},b={exports:{}},B=e;B.helpers=r,o(B),B._adapters=t,B.Animation=n,B.animationService=a,B.controllers=c,B.DatasetController=l,B.defaults=i,B.Element=s,B.elements=p,B.Interaction=u,B.layouts=d,B.platform=f,B.plugins=m,B.Scale=h,B.scaleService=v,B.Ticks=g,B.Tooltip=x;var L=y;B.helpers.each(L,function(e,r){B.scaleService.registerScaleType(r,e,e._defaults)});var T=w;for(var _ in T)T.hasOwnProperty(_)&&B.plugins.register(T[_]);function P(e){return"object"!=typeof e||Array.isArray(e)||!function(e){var r;for(r in e)return!1;return!0}(e)}return B.platform.initialize(),b.exports=B,"undefined"!=typeof window&&(window.Chart=B),B.Chart=B,B.Legend=T.legend._element,B.Title=T.title._element,B.pluginService=B.plugins,B.PluginBase=B.Element.extend({}),B.canvasHelpers=B.helpers.canvas,B.layoutService=B.layouts,B.LinearScaleBase=A,B.helpers.each(["Bar","Bubble","Doughnut","Line","PolarArea","Radar","Scatter"],function(e){B[e]=function(r,o){return new B(r,B.helpers.merge(o||{},{type:e.charAt(0).toLowerCase()+e.slice(1)}))}}),P(b.exports)?b.exports:P(C)?C:void 0});
+//# sourceMappingURL=sourcemaps/main.js.map
