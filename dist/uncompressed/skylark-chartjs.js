@@ -2,7 +2,7 @@
  * skylark-chartjs - A version of chartjs that ported to running on skylarkjs
  * @author Hudaokeji, Inc.
  * @version v0.9.2
- * @link https://github.com/skylarkui/skylark-chartjs/
+ * @link https://github.com/skylark-integration/skylark-chartjs/
  * @license MIT
  */
 (function(factory,globals) {
@@ -10220,7 +10220,7 @@ define('skylark-chartjs/scales/index',[
         return exports;
 });
 define('skylark-chartjs/adapters/adapter.moment',[
-//    'moment',
+    'skylark-moment',
     '../core/core.adapters'
 ], function (__module__0, __module__1) {
     'use strict';

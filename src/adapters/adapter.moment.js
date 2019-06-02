@@ -1,5 +1,5 @@
 define([
-//    'moment',
+    'skylark-moment',
     '../core/core.adapters'
 ], function (__module__0, __module__1) {
     'use strict';
