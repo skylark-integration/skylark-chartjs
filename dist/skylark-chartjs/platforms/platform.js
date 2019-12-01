@@ -5,5 +5,5 @@
  * @link https://github.com/skylark-integration/skylark-chartjs/
  * @license MIT
  */
-define(["../helpers/index","./platform.basic","./platform.dom"],function(e,n,t){"use strict";var r={},i={exports:{}},o=e,u=n,f=t,a=f._enabled?f:u;function c(e){return"object"!=typeof e||Array.isArray(e)||!function(e){var n;for(n in e)return!1;return!0}(e)}return i.exports=o.extend({initialize:function(){},acquireContext:function(){},releaseContext:function(){},addEventListener:function(){},removeEventListener:function(){}},a),c(i.exports)?i.exports:c(r)?r:void 0});
+define(["../helpers/index","./platform.basic","./platform.dom"],function(e,n,t){"use strict";var exports={},module={exports:{}},r=e,i=n,o=t,u=o._enabled?o:i;function f(e){return"object"!=typeof e||Array.isArray(e)||!function(e){var n;for(n in e)return!1;return!0}(e)}return module.exports=r.extend({initialize:function(){},acquireContext:function(){},releaseContext:function(){},addEventListener:function(){},removeEventListener:function(){}},u),f(module.exports)?module.exports:f(exports)?exports:void 0});
 //# sourceMappingURL=../sourcemaps/platforms/platform.js.map

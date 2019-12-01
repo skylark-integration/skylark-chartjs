@@ -5,5 +5,5 @@
  * @link https://github.com/skylark-integration/skylark-chartjs/
  * @license MIT
  */
-define(["./plugin.filler","./plugin.legend","./plugin.title"],function(r,e,t){"use strict";var n={},i={exports:{}};function o(r){return"object"!=typeof r||Array.isArray(r)||!function(r){var e;for(e in r)return!1;return!0}(r)}return i.exports={},i.exports.filler=r,i.exports.legend=e,i.exports.title=t,o(i.exports)?i.exports:o(n)?n:void 0});
+define(["./plugin.filler","./plugin.legend","./plugin.title"],function(r,e,t){"use strict";var exports={},module={exports:{}};function n(r){return"object"!=typeof r||Array.isArray(r)||!function(r){var e;for(e in r)return!1;return!0}(r)}return module.exports={},module.exports.filler=r,module.exports.legend=e,module.exports.title=t,n(module.exports)?module.exports:n(exports)?exports:void 0});
 //# sourceMappingURL=../sourcemaps/plugins/index.js.map

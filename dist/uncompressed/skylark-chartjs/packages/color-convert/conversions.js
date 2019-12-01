@@ -1,4 +1,4 @@
-defin([
+define([
 	'../color-name'
 ],function(cssKeywords) {
 

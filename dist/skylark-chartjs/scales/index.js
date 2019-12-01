@@ -5,5 +5,5 @@
  * @link https://github.com/skylark-integration/skylark-chartjs/
  * @license MIT
  */
-define(["./scale.category","./scale.linear","./scale.logarithmic","./scale.radialLinear","./scale.time"],function(r,e,a,t,i){"use strict";var n={},o={exports:{}},c=r,s=e,l=a,u=t,f=i;function p(r){return"object"!=typeof r||Array.isArray(r)||!function(r){var e;for(e in r)return!1;return!0}(r)}return o.exports={category:c,linear:s,logarithmic:l,radialLinear:u,time:f},p(o.exports)?o.exports:p(n)?n:void 0});
+define(["./scale.category","./scale.linear","./scale.logarithmic","./scale.radialLinear","./scale.time"],function(r,e,a,t,i){"use strict";var exports={},module={exports:{}},n=r,o=e,c=a,s=t,l=i;function u(r){return"object"!=typeof r||Array.isArray(r)||!function(r){var e;for(e in r)return!1;return!0}(r)}return module.exports={category:n,linear:o,logarithmic:c,radialLinear:s,time:l},u(module.exports)?module.exports:u(exports)?exports:void 0});
 //# sourceMappingURL=../sourcemaps/scales/index.js.map

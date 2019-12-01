@@ -1,4 +1,4 @@
-defin([
+define([
 	'./conversions',
 	'./route'
 ],function(conversions,route) {
