@@ -86,163 +86,167 @@
 
 })(function(define,require) {
 
-define('packages/color-name',[],function(){
-'use strict'
+define('skylark-chartjs/colors/names',[],function(){
+	'use strict'
 
-return {
-	"aliceblue": [240, 248, 255],
-	"antiquewhite": [250, 235, 215],
-	"aqua": [0, 255, 255],
-	"aquamarine": [127, 255, 212],
-	"azure": [240, 255, 255],
-	"beige": [245, 245, 220],
-	"bisque": [255, 228, 196],
-	"black": [0, 0, 0],
-	"blanchedalmond": [255, 235, 205],
-	"blue": [0, 0, 255],
-	"blueviolet": [138, 43, 226],
-	"brown": [165, 42, 42],
-	"burlywood": [222, 184, 135],
-	"cadetblue": [95, 158, 160],
-	"chartreuse": [127, 255, 0],
-	"chocolate": [210, 105, 30],
-	"coral": [255, 127, 80],
-	"cornflowerblue": [100, 149, 237],
-	"cornsilk": [255, 248, 220],
-	"crimson": [220, 20, 60],
-	"cyan": [0, 255, 255],
-	"darkblue": [0, 0, 139],
-	"darkcyan": [0, 139, 139],
-	"darkgoldenrod": [184, 134, 11],
-	"darkgray": [169, 169, 169],
-	"darkgreen": [0, 100, 0],
-	"darkgrey": [169, 169, 169],
-	"darkkhaki": [189, 183, 107],
-	"darkmagenta": [139, 0, 139],
-	"darkolivegreen": [85, 107, 47],
-	"darkorange": [255, 140, 0],
-	"darkorchid": [153, 50, 204],
-	"darkred": [139, 0, 0],
-	"darksalmon": [233, 150, 122],
-	"darkseagreen": [143, 188, 143],
-	"darkslateblue": [72, 61, 139],
-	"darkslategray": [47, 79, 79],
-	"darkslategrey": [47, 79, 79],
-	"darkturquoise": [0, 206, 209],
-	"darkviolet": [148, 0, 211],
-	"deeppink": [255, 20, 147],
-	"deepskyblue": [0, 191, 255],
-	"dimgray": [105, 105, 105],
-	"dimgrey": [105, 105, 105],
-	"dodgerblue": [30, 144, 255],
-	"firebrick": [178, 34, 34],
-	"floralwhite": [255, 250, 240],
-	"forestgreen": [34, 139, 34],
-	"fuchsia": [255, 0, 255],
-	"gainsboro": [220, 220, 220],
-	"ghostwhite": [248, 248, 255],
-	"gold": [255, 215, 0],
-	"goldenrod": [218, 165, 32],
-	"gray": [128, 128, 128],
-	"green": [0, 128, 0],
-	"greenyellow": [173, 255, 47],
-	"grey": [128, 128, 128],
-	"honeydew": [240, 255, 240],
-	"hotpink": [255, 105, 180],
-	"indianred": [205, 92, 92],
-	"indigo": [75, 0, 130],
-	"ivory": [255, 255, 240],
-	"khaki": [240, 230, 140],
-	"lavender": [230, 230, 250],
-	"lavenderblush": [255, 240, 245],
-	"lawngreen": [124, 252, 0],
-	"lemonchiffon": [255, 250, 205],
-	"lightblue": [173, 216, 230],
-	"lightcoral": [240, 128, 128],
-	"lightcyan": [224, 255, 255],
-	"lightgoldenrodyellow": [250, 250, 210],
-	"lightgray": [211, 211, 211],
-	"lightgreen": [144, 238, 144],
-	"lightgrey": [211, 211, 211],
-	"lightpink": [255, 182, 193],
-	"lightsalmon": [255, 160, 122],
-	"lightseagreen": [32, 178, 170],
-	"lightskyblue": [135, 206, 250],
-	"lightslategray": [119, 136, 153],
-	"lightslategrey": [119, 136, 153],
-	"lightsteelblue": [176, 196, 222],
-	"lightyellow": [255, 255, 224],
-	"lime": [0, 255, 0],
-	"limegreen": [50, 205, 50],
-	"linen": [250, 240, 230],
-	"magenta": [255, 0, 255],
-	"maroon": [128, 0, 0],
-	"mediumaquamarine": [102, 205, 170],
-	"mediumblue": [0, 0, 205],
-	"mediumorchid": [186, 85, 211],
-	"mediumpurple": [147, 112, 219],
-	"mediumseagreen": [60, 179, 113],
-	"mediumslateblue": [123, 104, 238],
-	"mediumspringgreen": [0, 250, 154],
-	"mediumturquoise": [72, 209, 204],
-	"mediumvioletred": [199, 21, 133],
-	"midnightblue": [25, 25, 112],
-	"mintcream": [245, 255, 250],
-	"mistyrose": [255, 228, 225],
-	"moccasin": [255, 228, 181],
-	"navajowhite": [255, 222, 173],
-	"navy": [0, 0, 128],
-	"oldlace": [253, 245, 230],
-	"olive": [128, 128, 0],
-	"olivedrab": [107, 142, 35],
-	"orange": [255, 165, 0],
-	"orangered": [255, 69, 0],
-	"orchid": [218, 112, 214],
-	"palegoldenrod": [238, 232, 170],
-	"palegreen": [152, 251, 152],
-	"paleturquoise": [175, 238, 238],
-	"palevioletred": [219, 112, 147],
-	"papayawhip": [255, 239, 213],
-	"peachpuff": [255, 218, 185],
-	"peru": [205, 133, 63],
-	"pink": [255, 192, 203],
-	"plum": [221, 160, 221],
-	"powderblue": [176, 224, 230],
-	"purple": [128, 0, 128],
-	"rebeccapurple": [102, 51, 153],
-	"red": [255, 0, 0],
-	"rosybrown": [188, 143, 143],
-	"royalblue": [65, 105, 225],
-	"saddlebrown": [139, 69, 19],
-	"salmon": [250, 128, 114],
-	"sandybrown": [244, 164, 96],
-	"seagreen": [46, 139, 87],
-	"seashell": [255, 245, 238],
-	"sienna": [160, 82, 45],
-	"silver": [192, 192, 192],
-	"skyblue": [135, 206, 235],
-	"slateblue": [106, 90, 205],
-	"slategray": [112, 128, 144],
-	"slategrey": [112, 128, 144],
-	"snow": [255, 250, 250],
-	"springgreen": [0, 255, 127],
-	"steelblue": [70, 130, 180],
-	"tan": [210, 180, 140],
-	"teal": [0, 128, 128],
-	"thistle": [216, 191, 216],
-	"tomato": [255, 99, 71],
-	"turquoise": [64, 224, 208],
-	"violet": [238, 130, 238],
-	"wheat": [245, 222, 179],
-	"white": [255, 255, 255],
-	"whitesmoke": [245, 245, 245],
-	"yellow": [255, 255, 0],
-	"yellowgreen": [154, 205, 50]
-};
+	return {
+		"aliceblue": [240, 248, 255],
+		"antiquewhite": [250, 235, 215],
+		"aqua": [0, 255, 255],
+		"aquamarine": [127, 255, 212],
+		"azure": [240, 255, 255],
+		"beige": [245, 245, 220],
+		"bisque": [255, 228, 196],
+		"black": [0, 0, 0],
+		"blanchedalmond": [255, 235, 205],
+		"blue": [0, 0, 255],
+		"blueviolet": [138, 43, 226],
+		"brown": [165, 42, 42],
+		"burlywood": [222, 184, 135],
+		"cadetblue": [95, 158, 160],
+		"chartreuse": [127, 255, 0],
+		"chocolate": [210, 105, 30],
+		"coral": [255, 127, 80],
+		"cornflowerblue": [100, 149, 237],
+		"cornsilk": [255, 248, 220],
+		"crimson": [220, 20, 60],
+		"cyan": [0, 255, 255],
+		"darkblue": [0, 0, 139],
+		"darkcyan": [0, 139, 139],
+		"darkgoldenrod": [184, 134, 11],
+		"darkgray": [169, 169, 169],
+		"darkgreen": [0, 100, 0],
+		"darkgrey": [169, 169, 169],
+		"darkkhaki": [189, 183, 107],
+		"darkmagenta": [139, 0, 139],
+		"darkolivegreen": [85, 107, 47],
+		"darkorange": [255, 140, 0],
+		"darkorchid": [153, 50, 204],
+		"darkred": [139, 0, 0],
+		"darksalmon": [233, 150, 122],
+		"darkseagreen": [143, 188, 143],
+		"darkslateblue": [72, 61, 139],
+		"darkslategray": [47, 79, 79],
+		"darkslategrey": [47, 79, 79],
+		"darkturquoise": [0, 206, 209],
+		"darkviolet": [148, 0, 211],
+		"deeppink": [255, 20, 147],
+		"deepskyblue": [0, 191, 255],
+		"dimgray": [105, 105, 105],
+		"dimgrey": [105, 105, 105],
+		"dodgerblue": [30, 144, 255],
+		"firebrick": [178, 34, 34],
+		"floralwhite": [255, 250, 240],
+		"forestgreen": [34, 139, 34],
+		"fuchsia": [255, 0, 255],
+		"gainsboro": [220, 220, 220],
+		"ghostwhite": [248, 248, 255],
+		"gold": [255, 215, 0],
+		"goldenrod": [218, 165, 32],
+		"gray": [128, 128, 128],
+		"green": [0, 128, 0],
+		"greenyellow": [173, 255, 47],
+		"grey": [128, 128, 128],
+		"honeydew": [240, 255, 240],
+		"hotpink": [255, 105, 180],
+		"indianred": [205, 92, 92],
+		"indigo": [75, 0, 130],
+		"ivory": [255, 255, 240],
+		"khaki": [240, 230, 140],
+		"lavender": [230, 230, 250],
+		"lavenderblush": [255, 240, 245],
+		"lawngreen": [124, 252, 0],
+		"lemonchiffon": [255, 250, 205],
+		"lightblue": [173, 216, 230],
+		"lightcoral": [240, 128, 128],
+		"lightcyan": [224, 255, 255],
+		"lightgoldenrodyellow": [250, 250, 210],
+		"lightgray": [211, 211, 211],
+		"lightgreen": [144, 238, 144],
+		"lightgrey": [211, 211, 211],
+		"lightpink": [255, 182, 193],
+		"lightsalmon": [255, 160, 122],
+		"lightseagreen": [32, 178, 170],
+		"lightskyblue": [135, 206, 250],
+		"lightslategray": [119, 136, 153],
+		"lightslategrey": [119, 136, 153],
+		"lightsteelblue": [176, 196, 222],
+		"lightyellow": [255, 255, 224],
+		"lime": [0, 255, 0],
+		"limegreen": [50, 205, 50],
+		"linen": [250, 240, 230],
+		"magenta": [255, 0, 255],
+		"maroon": [128, 0, 0],
+		"mediumaquamarine": [102, 205, 170],
+		"mediumblue": [0, 0, 205],
+		"mediumorchid": [186, 85, 211],
+		"mediumpurple": [147, 112, 219],
+		"mediumseagreen": [60, 179, 113],
+		"mediumslateblue": [123, 104, 238],
+		"mediumspringgreen": [0, 250, 154],
+		"mediumturquoise": [72, 209, 204],
+		"mediumvioletred": [199, 21, 133],
+		"midnightblue": [25, 25, 112],
+		"mintcream": [245, 255, 250],
+		"mistyrose": [255, 228, 225],
+		"moccasin": [255, 228, 181],
+		"navajowhite": [255, 222, 173],
+		"navy": [0, 0, 128],
+		"oldlace": [253, 245, 230],
+		"olive": [128, 128, 0],
+		"olivedrab": [107, 142, 35],
+		"orange": [255, 165, 0],
+		"orangered": [255, 69, 0],
+		"orchid": [218, 112, 214],
+		"palegoldenrod": [238, 232, 170],
+		"palegreen": [152, 251, 152],
+		"paleturquoise": [175, 238, 238],
+		"palevioletred": [219, 112, 147],
+		"papayawhip": [255, 239, 213],
+		"peachpuff": [255, 218, 185],
+		"peru": [205, 133, 63],
+		"pink": [255, 192, 203],
+		"plum": [221, 160, 221],
+		"powderblue": [176, 224, 230],
+		"purple": [128, 0, 128],
+		"rebeccapurple": [102, 51, 153],
+		"red": [255, 0, 0],
+		"rosybrown": [188, 143, 143],
+		"royalblue": [65, 105, 225],
+		"saddlebrown": [139, 69, 19],
+		"salmon": [250, 128, 114],
+		"sandybrown": [244, 164, 96],
+		"seagreen": [46, 139, 87],
+		"seashell": [255, 245, 238],
+		"sienna": [160, 82, 45],
+		"silver": [192, 192, 192],
+		"skyblue": [135, 206, 235],
+		"slateblue": [106, 90, 205],
+		"slategray": [112, 128, 144],
+		"slategrey": [112, 128, 144],
+		"snow": [255, 250, 250],
+		"springgreen": [0, 255, 127],
+		"steelblue": [70, 130, 180],
+		"tan": [210, 180, 140],
+		"teal": [0, 128, 128],
+		"thistle": [216, 191, 216],
+		"tomato": [255, 99, 71],
+		"turquoise": [64, 224, 208],
+		"violet": [238, 130, 238],
+		"wheat": [245, 222, 179],
+		"white": [255, 255, 255],
+		"whitesmoke": [245, 245, 245],
+		"yellow": [255, 255, 0],
+		"yellowgreen": [154, 205, 50]
+	};
 });
-define('packages/color-convert/conversions',[
-	'../color-name'
-],function(cssKeywords) {
+define('skylark-chartjs/colors/conversions',[
+	"./names"
+],function(cssKeywords){
+
+	/* MIT license */
+	/* eslint-disable no-mixed-operators */
+	//const cssKeywords = require('color-name');
 
 	// NOTE: conversions should only return primitive values (i.e. arrays, or
 	//       values that give correct `typeof` results).
@@ -906,7 +910,7 @@ define('packages/color-convert/conversions',[
 		if (max === g) {
 			hue = 2 + (b - r) / chroma;
 		} else {
-			hue = 4 + (r - g) / chroma + 4;
+			hue = 4 + (r - g) / chroma;
 		}
 
 		hue /= 6;
@@ -1079,12 +1083,12 @@ define('packages/color-convert/conversions',[
 		return [val / 255 * 100];
 	};
 
-	return convert;
-
+	return convert
 });
-define('packages/color-convert/route',[
-	'./conversions'
-],function(conversions) {
+define('skylark-chartjs/colors/route',[
+	"./conversions"
+],function(conversions){
+	//const conversions = require('./conversions');
 
 	/*
 		This function routes a model to all other models.
@@ -1161,7 +1165,7 @@ define('packages/color-convert/route',[
 		return fn;
 	}
 
-	return function (fromModel) {
+	function route(fromModel) {
 		const graph = deriveBFS(fromModel);
 		const conversion = {};
 
@@ -1179,13 +1183,18 @@ define('packages/color-convert/route',[
 		}
 
 		return conversion;
-	};
+	}
+
+	return route;
 });
 
-define('packages/color-convert/index',[
-	'./conversions',
-	'./route'
-],function(conversions,route) {
+
+define('skylark-chartjs/colors/convert',[
+	"./conversions",
+	"./route"
+],function(conversions,route){
+	//const conversions = require('./conversions');
+	//const route = require('./route');
 
 	const convert = {};
 
@@ -1264,16 +1273,34 @@ define('packages/color-convert/index',[
 		});
 	});
 
-	return  convert;
-
+	return convert;
 });
-
-
-define('packages/chartjs-color-string',[
-  './color-name'
+define('skylark-chartjs/colors/strings',[
+  "./names"
 ],function(colorNames){
- 
-   function getRgba(string) {
+ /* MIT license */
+  //var colorNames = require('color-name');
+
+  var strings = {
+     getRgba: getRgba,
+     getHsla: getHsla,
+     getRgb: getRgb,
+     getHsl: getHsl,
+     getHwb: getHwb,
+     getAlpha: getAlpha,
+
+     hexString: hexString,
+     rgbString: rgbString,
+     rgbaString: rgbaString,
+     percentString: percentString,
+     percentaString: percentaString,
+     hslString: hslString,
+     hslaString: hslaString,
+     hwbString: hwbString,
+     keyword: keyword
+  }
+
+  function getRgba(string) {
      if (!string) {
         return;
      }
@@ -1489,31 +1516,15 @@ define('packages/chartjs-color-string',[
      reverseNames[colorNames[name]] = name;
   }
 
- return {
-     getRgba: getRgba,
-     getHsla: getHsla,
-     getRgb: getRgb,
-     getHsl: getHsl,
-     getHwb: getHwb,
-     getAlpha: getAlpha,
-
-     hexString: hexString,
-     rgbString: rgbString,
-     rgbaString: rgbaString,
-     percentString: percentString,
-     percentaString: percentaString,
-     hslString: hslString,
-     hslaString: hslaString,
-     hwbString: hwbString,
-     keyword: keyword
-  }
-
+  return strings;
 });
-
-define('packages/chartjs-color',[
-	"./color-convert/index",
-	"./chartjs-color-string"
-],function(convert,string){
+define('skylark-chartjs/colors/Color',[
+  "./convert",
+  "./strings"
+],function(convert,strings){
+	/* MIT license */
+	//var convert = require('color-convert');
+	//var string = require('chartjs-color-string');
 
 	var Color = function (obj) {
 		if (obj instanceof Color) {
@@ -1536,12 +1547,12 @@ define('packages/chartjs-color',[
 		// parse Color() argument
 		var vals;
 		if (typeof obj === 'string') {
-			vals = string.getRgba(obj);
+			vals = strings.getRgba(obj);
 			if (vals) {
 				this.setValues('rgb', vals);
-			} else if (vals = string.getHsla(obj)) {
+			} else if (vals = strings.getHsla(obj)) {
 				this.setValues('hsl', vals);
-			} else if (vals = string.getHwb(obj)) {
+			} else if (vals = strings.getHwb(obj)) {
 				this.setValues('hwb', vals);
 			}
 		} else if (typeof obj === 'object') {
@@ -1663,28 +1674,28 @@ define('packages/chartjs-color',[
 		},
 
 		hexString: function () {
-			return string.hexString(this.values.rgb);
+			return strings.hexString(this.values.rgb);
 		},
 		rgbString: function () {
-			return string.rgbString(this.values.rgb, this.values.alpha);
+			return strings.rgbString(this.values.rgb, this.values.alpha);
 		},
 		rgbaString: function () {
-			return string.rgbaString(this.values.rgb, this.values.alpha);
+			return strings.rgbaString(this.values.rgb, this.values.alpha);
 		},
 		percentString: function () {
-			return string.percentString(this.values.rgb, this.values.alpha);
+			return strings.percentString(this.values.rgb, this.values.alpha);
 		},
 		hslString: function () {
-			return string.hslString(this.values.hsl, this.values.alpha);
+			return strings.hslString(this.values.hsl, this.values.alpha);
 		},
 		hslaString: function () {
-			return string.hslaString(this.values.hsl, this.values.alpha);
+			return strings.hslaString(this.values.hsl, this.values.alpha);
 		},
 		hwbString: function () {
-			return string.hwbString(this.values.hwb, this.values.alpha);
+			return strings.hwbString(this.values.hwb, this.values.alpha);
 		},
 		keyword: function () {
-			return string.keyword(this.values.rgb, this.values.alpha);
+			return strings.keyword(this.values.rgb, this.values.alpha);
 		},
 
 		rgbNumber: function () {
@@ -1990,6 +2001,10 @@ define('packages/chartjs-color',[
 
 		return this;
 	};
+
+	//if (typeof window !== 'undefined') {
+	//	window.Color = Color;
+	//}
 
 	return Color;
 });
@@ -2753,7 +2768,7 @@ define('skylark-chartjs/helpers/index',[
         return exports;
 });
 define('skylark-chartjs/core/core.element',[
-    '../../packages/chartjs-color',
+    '../colors/Color',
     '../helpers/index'
 ], function (__module__0, __module__1) {
     'use strict';
@@ -8041,7 +8056,7 @@ define('skylark-chartjs/core/core.controller',[
         return exports;
 });
 define('skylark-chartjs/core/core.helpers',[
-    '../../packages/chartjs-color',
+    '../colors/Color',
     './core.defaults',
     '../helpers/index'
 ], function (__module__0, __module__1, __module__2) {

@@ -1,5 +1,5 @@
 define([
-    '../../packages/chartjs-color',
+    '../colors/Color',
     '../helpers/index'
 ], function (__module__0, __module__1) {
     'use strict';
